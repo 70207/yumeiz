@@ -103,12 +103,12 @@ int yumei_check_uri( const char* uri )
 		return -1;
 	}
 
-	first = uri[0] | 32;
+	// first = uri[0] | 32;
 	
-	if( first < 97 || first > 122 )
-	{
-		return -1;
-	}
+	// if( first < 97 || first > 122 )
+	// {
+	// 	return -1;
+	// }
 
 	return 0;
 }
